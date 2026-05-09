@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-05-10",
+  "missions": [
+    {
+      "id": "togaf-ea-practice-tests-part-1-pdf",
+      "title": "TOGAF EA — Practice Tests — Part 1",
+      "summary": "Test mission: sample PDF download for vault integration smoke tests.",
+      "version": "1.0.0",
+      "downloadUrl": "https://n7um34m2cnzcwnlp.public.blob.vercel-storage.com/TOGAF%20EA%20-%20Practice%20Tests%20-%20Part%201.pdf"
+    }
+  ]
+}
