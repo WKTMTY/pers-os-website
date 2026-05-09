@@ -1,0 +1,26 @@
+---
+description: Civil calendar dates vs instants — forbidden patterns in src/
+globs: src/**/*.ts,src/**/*.tsx
+---
+
+# Date handling (timezone-safe)
+
+## Models
+
+- **Civil day** — `YYYY-MM-DD` only; use `CalendarDate` and/or `DateService` (`getToday`, `addDays`, `subtractDays`, `toISODate` for `Date` → local civil string).
+- **Instant** — wall time / audit; use `Date` and `DateService.now()` when “now” is intentional.
+
+## Forbidden in `src/` (except sanctioned boundaries below)
+
+- `new Date('YYYY-MM-DD')` or `new Date(variable)` when `variable` is known to be **only** a civil ISO date string — use `CalendarDate.fromISOString` + `toLocalDate()` if a `Date` is required, or keep the string.
+- `.toISOString().split('T')[0]` and `.toISOString().slice(0, 10)` for deriving a **calendar day** from a `Date` — use `DateService.toISODate` or `CalendarDate.fromLocalDate(d).toISOString()`.
+- `Date.parse('YYYY-MM-DD')` for civil dates.
+
+## Sanctioned UTC boundaries
+
+Only these modules may build UTC-midnight anchors for library APIs:
+
+- `src/domain/services/recurrence-rule-anchor.ts` — `rrule` input/output.
+- `src/domain/services/xp-propagation-graph.module.ts` — internal XP grid (unchanged policy).
+
+Do not add new UTC-slice patterns elsewhere; extend one of the above if a new boundary is unavoidable.

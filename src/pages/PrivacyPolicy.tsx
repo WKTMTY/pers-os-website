@@ -24,7 +24,7 @@ export const PrivacyPolicy = () => {
             Privacy policy
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{ mb: 4 }}>
-            Last update : 2024-12-15
+            Last update : 2026-05-09
           </Typography>
 
           <Typography variant="body1" paragraph color="text.secondary">
@@ -32,7 +32,7 @@ export const PrivacyPolicy = () => {
           </Typography>
           <Typography variant="body1" paragraph color="text.secondary">
             At Personal OS, accessible from pers-os.com, one of our main priorities is the privacy of
-            our visitors. This Privacy Policy document contains types of information that is collected
+            our visitors. This Privacy Policy document contains types of information that are collected
             and recorded by WKTMTY and how we use it.
           </Typography>
           <Typography variant="body1" paragraph color="text.secondary">
@@ -58,7 +58,7 @@ export const PrivacyPolicy = () => {
             We are a Data Controller of your information.
           </Typography>
           <Typography variant="body1" paragraph color="text.secondary">
-            WKTMTY LLC legal basis for collecting and using the personal information described in this
+            WKTMTY LLC&apos;s legal basis for collecting and using the personal information described in this
             Privacy Policy depends on the Personal Information we collect and the specific context in
             which we collect the information:
           </Typography>
@@ -75,7 +75,7 @@ export const PrivacyPolicy = () => {
             </li>
             <li>
               <Typography variant="body1" color="text.secondary">
-                Processing your personal information is in WKTMTY LLC legitimate interests
+                Processing your personal information is in WKTMTY LLC&apos;s legitimate interests
               </Typography>
             </li>
             <li>
@@ -145,7 +145,7 @@ export const PrivacyPolicy = () => {
           <Typography variant="body1" paragraph color="text.secondary">
             WKTMTY follows a standard procedure of using log files. These files log visitors when they
             visit websites. All hosting companies do this and a part of hosting services' analytics.
-            The information collected by log files include internet protocol (IP) addresses, browser
+            The information collected by log files includes internet protocol (IP) addresses, browser
             type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and
             possibly the number of clicks. These are not linked to any information that is personally
             identifiable. The purpose of the information is for analyzing trends, administering the
@@ -170,9 +170,9 @@ export const PrivacyPolicy = () => {
             of WKTMTY.
           </Typography>
           <Typography variant="body1" paragraph color="text.secondary">
-            Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web
+            Third-party ad servers or ad networks use technologies like cookies, JavaScript, or Web
             Beacons that are used in their respective advertisements and links that appear on
-            Perso-os.com, which are sent directly to users' browser. They automatically receive your
+            pers-os.com, which are sent directly to users&apos; browsers. They automatically receive your
             IP address when this occurs. These technologies are used to measure the effectiveness of
             their advertising campaigns and/or to personalize the advertising content that you see on
             websites that you visit.
@@ -229,7 +229,7 @@ export const PrivacyPolicy = () => {
             WKTMTY does not knowingly collect any Personal Identifiable Information from children
             under the age of 13. If you think that your child provided this kind of information on our
             website, we strongly encourage you to contact us immediately and we will do our best
-            efforts to promptly remove such information from our records.
+            to promptly remove such information from our records.
           </Typography>
 
           <Typography
@@ -246,9 +246,9 @@ export const PrivacyPolicy = () => {
             Online Privacy Policy Only
           </Typography>
           <Typography variant="body1" paragraph color="text.secondary">
-            Our Privacy Policy created at GDPRPrivacyPolicy.net) applies only to our online
-            activities and is valid for visitors to our website with regards to the information that
-            they shared and/or collect in Pers-os.com. This policy is not applicable to any
+            Our Privacy Policy, created at GDPRPrivacyPolicy.net, applies only to our online
+            activities and is valid for visitors to our website with regard to the information that
+            they share and/or we collect on pers-os.com. This policy is not applicable to any
             information collected offline or via channels other than this website.
           </Typography>
 
