@@ -1,11 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "updatedAt": "2026-05-10",
   "missions": [
     {
       "id": "togaf-ea-practice-tests-part-1-pdf",
       "title": "TOGAF EA — Practice Tests — Part 1",
       "summary": "Test mission: sample PDF download for vault integration smoke tests.",
+      "description": "Part 1–style questions aligned with the TOGAF Enterprise Architecture standard. Use this pack to validate your study flow and download handling in PersOs before sitting the full exam.",
+      "difficulty": 2,
+      "imageURL": "/missions/togaf-ea-cover-1.svg",
+      "version": "1.0.0",
+      "downloadUrl": "https://n7um34m2cnzcwnlp.public.blob.vercel-storage.com/TOGAF%20EA%20-%20Practice%20Tests%20-%20Part%201.pdf"
+    },
+    {
+      "id": "togaf-ea-practice-tests-part-1-pdf-study-path",
+      "title": "TOGAF EA — Practice Tests — Study path (same PDF)",
+      "summary": "Alternate mission card pointing at the same Part 1 PDF for different UI or difficulty experiments.",
+      "description": "Parallel entry for the identical Part 1 practice PDF. Handy when you want two mission records (e.g. beginner vs review track) without duplicating the hosted file.",
+      "difficulty": 3,
+      "imageURL": "/missions/togaf-ea-cover-2.svg",
       "version": "1.0.0",
       "downloadUrl": "https://n7um34m2cnzcwnlp.public.blob.vercel-storage.com/TOGAF%20EA%20-%20Practice%20Tests%20-%20Part%201.pdf"
     }
