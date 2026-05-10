@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="Mission 003 Lollipop cover">
+  <defs>
+    <linearGradient id="lp-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9a9e"/>
+      <stop offset="50%" style="stop-color:#fecfef"/>
+      <stop offset="100%" style="stop-color:#a18cd1"/>
+    </linearGradient>
+    <linearGradient id="lp-stick" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8bbd0"/>
+      <stop offset="100%" style="stop-color:#ce93d8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#lp-bg)"/>
+  <rect x="40" y="40" width="720" height="370" rx="8" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+  <g transform="translate(560 200)">
+    <rect x="-6" y="80" width="12" height="120" rx="4" fill="url(#lp-stick)"/>
+    <circle cx="0" cy="0" r="88" fill="#fff5f8" stroke="#fff" stroke-width="3"/>
+    <path d="M0 0 C-20-20-50-10-55 15 C-60 45-30 70 0 72 C35 74 72 45 70 10 C68-30 25-55-10-50 C-50-45-75 5-65 45 C-55 85 5 105 45 95" fill="none" stroke="#e91e63" stroke-width="5" stroke-linecap="round"/>
+    <path d="M0 0 C15 18 48 22 58-8 C68-38 35-65 0-62 C-40-58-70-15-55 25 C-40 65 10 78 48 62" fill="none" stroke="#ab47bc" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  </g>
+  <text x="72" y="108" fill="#4a148c" font-family="system-ui,Segoe UI,sans-serif" font-size="26" font-weight="600">Mission 003</text>
+  <text x="72" y="168" fill="#6a1b9a" font-family="system-ui,Segoe UI,sans-serif" font-size="44" font-weight="700">Lollipop</text>
+  <text x="72" y="228" fill="rgba(74,20,140,0.85)" font-family="system-ui,Segoe UI,sans-serif" font-size="22">Zip bundle · Creative sprint kit</text>
+  <text x="72" y="268" fill="rgba(106,27,154,0.75)" font-family="system-ui,Segoe UI,sans-serif" font-size="17">Unzip, remix, ship something sweet.</text>
+  <circle cx="120" cy="360" r="40" fill="rgba(255,255,255,0.45)" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+  <text x="94" y="372" fill="#4a148c" font-family="system-ui,Segoe UI,sans-serif" font-size="32" font-weight="700">03</text>
+</svg>

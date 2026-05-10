@@ -21,6 +21,16 @@
       "imageURL": "/missions/togaf-ea-cover-2.svg",
       "version": "1.0.0",
       "downloadUrl": "https://n7um34m2cnzcwnlp.public.blob.vercel-storage.com/TOGAF%20EA%20-%20Practice%20Tests%20-%20Part%201.pdf"
+    },
+    {
+      "id": "003",
+      "title": "Lollipop — Creative sprint bundle",
+      "summary": "A zipped starter pack of palettes, stickers, and quick-win layout snippets—unwrap it and build something playful in one sitting.",
+      "description": "Mission 003 ships as a single ZIP on blob storage. Inside: brand-tinged assets you can drop into PersOs demos, a few SVG glyphs, and a tiny checklist to go from blank canvas to sharable prototype. Treat it like candy: small bites, high energy, no baggage.",
+      "difficulty": 1,
+      "imageURL": "/missions/mission-003-lolipop.svg",
+      "version": "1.0.0",
+      "downloadUrl": "https://n7um34m2cnzcwnlp.public.blob.vercel-storage.com/003%20-%20lolipop.zip"
     }
   ]
 }
