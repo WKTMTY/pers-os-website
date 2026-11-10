@@ -22,7 +22,7 @@ Stop at the first directory that exists.
 
 ## Read the Skill
 
-`Read` `<vault root>/Applying Clean Architecture.md`.
+`Read` `<vault root>/Skill/Skill/Applying Clean Architecture.md`.
 
 ## Child Guides
 

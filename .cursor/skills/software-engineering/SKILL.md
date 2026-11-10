@@ -22,7 +22,7 @@ Stop at the first directory that exists.
 
 ## Read the Skill
 
-`Read` `<vault root>/Software Engineering.md`.
+`Read` `<vault root>/Skill/Skill/Software Engineering.md`.
 
 ## Child Guides
 
